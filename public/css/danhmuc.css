@@ -1,0 +1,90 @@
+.grid-container{
+margin-top: 61px;
+margin-left: 180px;
+display: grid;
+height: fit-content;
+grid-template: auto / repeat(6, minmax(300px, 1fr));
+text-align: center;
+gap: 20px;
+}
+.grid-container .md2{
+border-radius: 5%;
+padding: 10px;
+height: fit-content;
+}
+.grid-container .md2:hover{
+transform: scale(1.1);
+cursor: pointer;
+box-shadow: 0 0 5px rgb(112, 112, 112);
+z-index: 999999;
+}
+.grid-container img{
+border-radius: 5%;
+margin: 0 auto;
+max-height: 225px;
+}
+.md2{
+transition: 0.5s ease;
+margin: 5px 10px 0 10px;
+width: 282px;
+height: 412px;
+font-size: 18px;
+}
+.danhmuc{
+display: flex;
+justify-content: center;
+width: 80%;
+margin: 0 auto;
+}
+.sidebar{
+font-size: 50px;
+margin-right: 45%;
+}
+.sidebar ul{
+display: flex;
+gap: 50px;
+}
+.sidebar li{
+text-align: center;
+display: flex;
+}
+.nv-c{
+    height: 60px;
+    width: fit-content;
+}
+.sidebar li img{
+height: 100%;
+margin: 0 auto;
+}
+.lugx{
+    border-top-left-radius:100%;
+    border-bottom-left-radius:100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto auto 0 ;
+    height: fit-content;
+    background-image: url('../images/banner-bg.jpg');
+    }
+    .lugx img{
+padding-left: 50px;
+margin: auto 0;
+padding-right: 20px;
+}
+.dm-active{
+    box-shadow: 0 0 5px black;
+}
+.grid-container2{
+    width: 100%;
+    display: grid;
+    grid-template: auto / repeat(4, minmax(200px, 1fr));
+    text-align: center;
+    gap: 30px;
+    position: static;
+}
+.san-pham{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}

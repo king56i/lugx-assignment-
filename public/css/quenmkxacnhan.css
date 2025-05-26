@@ -1,0 +1,18 @@
+.khung-qmk-xn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.khung-qmk-xn input{
+    width: 78%;
+}
+.error{
+    margin: 10px auto;
+    padding: 5px 0;
+    width: 78%;
+    background-color: rgb(236, 154, 154);
+    color: rgb(105, 22, 22);
+    height: fit-content;
+    text-align: center;
+}
